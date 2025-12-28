@@ -1,0 +1,183 @@
+[
+  {
+    "sipp_code": "EMMS",
+    "category_id": "4",
+    "type_id": "2",
+    "transmission_id": "2",
+    "fuel_id": "2",
+    "seats": 5,
+    "min_price": 430.0,
+    "guaranteed": false,
+    "name": "Peugeot 208",
+    "description": "or similar | Urban | EMMS",
+    "category": "Urban",
+    "equipment": {
+      "seats": "5 Seats",
+      "transmission": "Manual",
+      "doors": "5 Doors"
+    },
+    "pricing": {
+      "original_price": 430.0,
+      "discounted_price": 387.0
+    },
+    "duration_options": "3, 4, 5, 6, 7, 8, 9 months",
+    "images": [
+      {
+        "url": "https://okdata-file.s3.eu-west-1.amazonaws.com/okweb/vehicleversion/10/imageForSubscription/PEUGEOT-208-SILVER-OKM-DER-test.png",
+        "alt": "Peugeot 208"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/11/image/OPEL-CORSA-BLACK-OKM-DER.png",
+        "alt": "Opel Corsa"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/12/image/RENAULT-CLIO-GREY-OKM-DER.png",
+        "alt": "Renault Clio"
+      }
+    ],
+    "booking_url": "/en/subscription/booking/availability/sevilla-santa-justa-train-station/2026-01-05/emms"
+  },
+  {
+    "sipp_code": "SSMS",
+    "category_id": "6",
+    "type_id": "2",
+    "transmission_id": "2",
+    "fuel_id": "2",
+    "seats": 5,
+    "min_price": 467.0,
+    "guaranteed": false,
+    "name": "Peugeot 2008",
+    "description": "or similar | SUV | SSMS",
+    "category": "SUV",
+    "equipment": {
+      "seats": "5 Seats",
+      "transmission": "Manual",
+      "doors": "5 Doors"
+    },
+    "pricing": {
+      "original_price": 467.0,
+      "discounted_price": 420.0
+    },
+    "duration_options": "3, 4, 5, 6, 7, 8, 9 months",
+    "images": [
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/23/image/PEUGEOT-2008-GREY-OKM-DER.png",
+        "alt": "Peugeot 2008"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/24/image/RENAULT-CAPTUR-BLUE-OKM-DER.png",
+        "alt": "Renault Captur"
+      }
+    ],
+    "booking_url": "/en/subscription/booking/availability/sevilla-santa-justa-train-station/2026-01-05/ssms"
+  },
+  {
+    "sipp_code": "CMMS",
+    "category_id": "5",
+    "type_id": "2",
+    "transmission_id": "2",
+    "fuel_id": "2",
+    "seats": 5,
+    "min_price": 475.0,
+    "guaranteed": false,
+    "name": "Peugeot 308",
+    "description": "or similar | Compact | CMMS",
+    "category": "Compact",
+    "equipment": {
+      "seats": "5 Seats",
+      "transmission": "Manual",
+      "doors": "5 Doors"
+    },
+    "pricing": {
+      "original_price": 475.0,
+      "discounted_price": 428.0
+    },
+    "duration_options": "3, 4, 5, 6, 7, 8, 9 months",
+    "images": [
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/6/image/PEUGEOT-308-BLACK-OKM-DER.png",
+        "alt": "Peugeot 308"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/7/image/OPEL-ASTRA-GREY-OKM-DER.png",
+        "alt": "Opel Astra"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/8/image/CITROEN-C4-SILVER-OKM-DER.png",
+        "alt": "Citroën C4"
+      }
+    ],
+    "booking_url": "/en/subscription/booking/availability/sevilla-santa-justa-train-station/2026-01-05/cmms"
+  },
+  {
+    "sipp_code": "CLMS",
+    "category_id": "10",
+    "type_id": "2",
+    "transmission_id": "2",
+    "fuel_id": "2",
+    "seats": 5,
+    "min_price": 529.0,
+    "guaranteed": false,
+    "name": "Peugeot Rifter",
+    "description": "or similar | Van | CLMS",
+    "category": "Van",
+    "equipment": {
+      "seats": "5 Seats",
+      "transmission": "Manual",
+      "doors": "5 Doors"
+    },
+    "pricing": {
+      "original_price": 529.0,
+      "discounted_price": 476.0
+    },
+    "duration_options": "3, 4, 5, 6, 7, 8, 9 months",
+    "images": [
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/43/image/PEUGEOT-RIFTER-BLACK-OKM-DER.png",
+        "alt": "Peugeot Rifter"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/35/image/OPEL-COMBO-WHITE-OKM-DER.png",
+        "alt": ""
+      }
+    ],
+    "booking_url": "/en/subscription/booking/availability/sevilla-santa-justa-train-station/2026-01-05/clms"
+  },
+  {
+    "sipp_code": "SMPS",
+    "category_id": "6",
+    "type_id": "2",
+    "transmission_id": "1",
+    "fuel_id": "5",
+    "seats": 5,
+    "min_price": 558.0,
+    "guaranteed": false,
+    "name": "Jeep Compass",
+    "description": "or similar | SUV | SMPS",
+    "category": "SUV",
+    "equipment": {
+      "seats": "5 Seats",
+      "transmission": "Automatic",
+      "doors": "5 Doors"
+    },
+    "pricing": {
+      "original_price": 558.0,
+      "discounted_price": 502.0
+    },
+    "duration_options": "3, 4, 5, 6, 7, 8, 9 months",
+    "images": [
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/22/image/JEEP-COMPASS-WHITE-OKM-DER.png",
+        "alt": "Jeep Compass"
+      },
+      {
+        "url": "https://okdata-file.s3.amazonaws.com/okweb/vehiclemodel/18/image/PEUGEOT-3008-SILVER-OKM.png",
+        "alt": "Peugeot 3008"
+      }
+    ],
+    "booking_url": "/en/subscription/booking/availability/sevilla-santa-justa-train-station/2026-01-05/smps",
+    "badges": [
+      "Plug-in Hybrid"
+    ]
+  }
+]
