@@ -63,18 +63,8 @@ def _load_secret_block(name: str) -> Optional[str]:
 def send_telegram_message(text: str):
     logger = get_run_logger()
 
-    # Try Prefect Secret blocks first. Accept common block names (user example):
-    # - "telegram-bot-token"
-    # - "telegram-chat-id"
-    # Also try legacy/uppercase env-style block names.
-    token = _load_secret_block("telegram-bot-token") or _load_secret_block("TELEGRAM_BOT_TOKEN")
-    chat_id = "77041861"
-
-    # Fallback to environment variables if blocks are not available
-    if not token:
-        token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    if not chat_id:
-        chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    token = _load_secret_block("telegram-bot-token")
+    chat_id = _load_secret_block("telegram-chat-id")
 
     if not token or not chat_id:
         logger.warning("Telegram credentials not set; skipping notification")

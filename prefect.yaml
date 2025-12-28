@@ -14,9 +14,13 @@ push: null
 
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
-- prefect.deployments.steps.git_clone:
+- step: prefect.deployments.steps.git_clone
+  inputs:
     repository: https://github.com/marcelo-quantryx/ok.git
     branch: main
+- step: prefect.deployments.steps.shell
+  inputs:
+    command: "python -m pip install --upgrade pip && python -m pip install -r requirements.txt"
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
